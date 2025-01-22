@@ -1,0 +1,76 @@
+.cantenar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px;
+    color: aliceblue;
+
+}
+.navbar{
+    justify-items: end;
+}
+.navbar button{
+   position: absolute;
+   right: 20px;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+.logo h1{
+ color: white;
+}
+.hero-sections{
+  display: flex;
+   gap: 50px ;
+
+  justify-content: center;
+  
+
+}
+button{
+    color:wheat;
+    border-radius: 10px;
+    height: 25px;
+    background-color: navy;
+
+}
+#photo{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+#photo img{
+    width: 400px;
+    height: fit-content;
+
+    border-radius: 50px;
+}
+#Content{
+    height: 252px;
+    text-align: center;
+    width: 50%;
+    gap: 50px
+    ;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    color: aliceblue;
+}
+#content,h1{
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    
+}
+.footer{
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
